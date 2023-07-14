@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contanier{
+    width: 100%;
+    height: 100vh;
+}
+.inp-man-card{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(26, 0, 0);
+    color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inp-div{
+    width: 380px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+input {
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+input:focus {
+    outline: none;
+
+}
+
+::placeholder {
+    color: rgb(184, 187, 184);
+    font-family: Arial;
+
+}
+button {
+    width: 100%;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease-in-out;
+
+}
+
+button:hover {
+    background: white;
+    color: #ff7200;
+}
+
+
+.cart{
+    width:320px;
+    height: 420px;
+    background-color:rgb(26, 0, 0);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.cart img{
+    width: 100%;
+    height: 220px;
+    border-radius: 10px;
+}
+.cart h3{
+    margin: 10px;
+    text-align: center;
+}
+.cart p{
+    margin: 10px 0;
+}
+.textcontanier{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+  }
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1180px;
+    margin: 0 auto;
+    justify-content: center;
+}
